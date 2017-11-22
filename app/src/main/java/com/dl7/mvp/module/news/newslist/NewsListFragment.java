@@ -119,6 +119,8 @@ public class NewsListFragment extends BaseFragment<IBasePresenter> implements IN
         mAdapter.addItems(newsList);
     }
 
+
+    
     @Override
     public void loadNoData() {
         mAdapter.loadAbnormal();
